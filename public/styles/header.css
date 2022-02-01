@@ -1,0 +1,10 @@
+header{
+  height:400px;
+  width:100%;
+  background-color:sandybrown;
+  background-image:url("../images/background.png");
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
