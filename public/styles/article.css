@@ -1,3 +1,6 @@
+/*
+Article specific css page that handles the tweets
+*/
 section#tweets-container{
   display:flex;
   flex-direction: column-reverse;

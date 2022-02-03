@@ -1,3 +1,6 @@
+/*
+nav css that manages just the navagation bar
+*/
 nav{
   height: 120px;
   background-color: #4056A1;
@@ -24,8 +27,23 @@ i{
   width:100%;
   text-align: center;
 }
+.write-tweet:hover{
+  cursor:pointer;
+ }
+ .fa-angle-down {
+   -webkit-animation: mover 2s infinite  alternate;
+   animation: mover 2s infinite  alternate;
+ }
+ @-webkit-keyframes mover {
+   0% { transform: translateY(0); }
+   100% { transform: translateY(-10px); }
+ }
+ @keyframes mover {
+   0% { transform: translateY(0); }
+   100% { transform: translateY(-10px); }
+ }
 
-@media (max-width: 600px) {
+@media (max-width: 950px) {
 nav{
   background-color:sandybrown;
 }

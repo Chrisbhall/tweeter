@@ -1,3 +1,6 @@
+/*
+header specific css page that only manages the header
+*/
 header{
   height:400px;
   width:600px;
@@ -11,7 +14,7 @@ header{
   align-items:center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 950px) {
   header{
     height:400px;
     width:100%;
@@ -24,4 +27,4 @@ header{
     margin-top:120px;
     margin-left:0%;
   }
-  }
+}

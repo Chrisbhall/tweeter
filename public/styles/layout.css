@@ -31,7 +31,7 @@ body {
    margin-top:120px;
  }
 
- @media (min-width: 601px) {
+ @media (min-width: 951px) {
    body {
      display: flex;
      flex-direction: row;

@@ -1,3 +1,6 @@
+/*
+tweet form specific css page that only manages the form
+*/
 form{
   display:flex;
   flex-direction:column;
@@ -8,21 +11,7 @@ form{
   border-style: dotted;
   border-color:red;
 }
-.write-tweet:hover{
- cursor:pointer;
-}
-.fa-angle-down {
-  -webkit-animation: mover 2s infinite  alternate;
-  animation: mover 2s infinite  alternate;
-}
-@-webkit-keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
-}
-@keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
-}
+
 .bottomForm{
   display:flex;
   flex-direction: row;
@@ -30,7 +19,7 @@ form{
   align-items: flex-start;
   width:550px;
 }
-textarea{
+input{
   width:550px;
   border-top: none;
   border-left:none;

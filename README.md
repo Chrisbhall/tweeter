@@ -16,3 +16,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+
+!["Screenshot of Main Page with tweet form "](https://github.com/Chrisbhall/tweeter/blob/master/images/tweeter1.PNG)
+
+!["Screenshot of Main Page without the tweet form"](https://github.com/Chrisbhall/tweeter/blob/master/images/tweeter2.PNG)
+
+!["Screenshot of Main Page in mobile view"](https://github.com/Chrisbhall/tweeter/blob/master/images/tweeter3.PNG)
