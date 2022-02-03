@@ -28,4 +28,19 @@ body {
    align-content: center;
    margin-left:5%;
    margin-right:5%;
+   margin-top:120px;
+ }
+
+ @media (min-width: 601px) {
+   body {
+     display: flex;
+     flex-direction: row;
+   }
+   main {
+    width:90%;
+    align-content: center;
+    margin-left:5%;
+    margin-right:5%;
+  }
+
  }

@@ -7,9 +7,10 @@ nav{
   justify-content: space-between;
   align-items:center;
   padding:1.5em;
-  /*position:absolute;
+  position:fixed;
   width:100%;
-  z-index:2;*/
+  z-index:2;
+  top: 0;
 }
 span{
   font-family: "bungee", "sans-serif";
@@ -22,4 +23,10 @@ i{
   display:block;
   width:100%;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+nav{
+  background-color:sandybrown;
+}
 }

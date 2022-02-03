@@ -1,6 +1,8 @@
 header{
   height:400px;
-  width:100%;
+  width:600px;
+  margin-top:150px;
+  margin-left:5%;
   background-color:sandybrown;
   background-image:url("../images/background.png");
   display:flex;
@@ -8,3 +10,18 @@ header{
   justify-content: center;
   align-items:center;
 }
+
+@media (max-width: 600px) {
+  header{
+    height:400px;
+    width:100%;
+    background-color:sandybrown;
+    background-image:url("../images/background.png");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top:120px;
+    margin-left:0%;
+  }
+  }

@@ -3,24 +3,48 @@ form{
   flex-direction:column;
   align-items:center;
 }
+.error{
+  color:red;
+  border-style: dotted;
+  border-color:red;
+}
+.write-tweet:hover{
+ cursor:pointer;
+}
+.fa-angle-down {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
 .bottomForm{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width:450px;
+  width:550px;
 }
-input{
-  width:450px;
+textarea{
+  width:550px;
   border-top: none;
   border-left:none;
   border-right:none;
   border-bottom:solid;
   border-color:dimgrey;
   background-color:#f4f1ec;
+  height:45px;
 }
 button {
   color:white;
   background-color:#4056A1;
   font-family: "bungee", "sans-serif";
+}
+.red {
+  color:red;
 }
