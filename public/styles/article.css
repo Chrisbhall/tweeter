@@ -40,6 +40,9 @@ article:hover{
   width:65px;
   height:65px;
 }
+.content{
+  overflow-wrap: break-word;
+}
 footer{
   font-size:16px;
   font-weight: 300;

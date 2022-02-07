@@ -23,6 +23,7 @@ $(document).ready(function() {
       return null;
     }
     $(".error").hide(1000);
+    $("#tweet-text").val('');
     $.post("/tweets",safe, function() {
       $('section#tweets-container').html("");
       loadTweets();
@@ -40,7 +41,7 @@ $(document).ready(function() {
   const createTweetElement = function(tweet) {
     let time = timeago.format(tweet.created_at);
     const header = "<header class='tweet-header'><h3 class='title'><img class='tweet-image' src='" +  tweet.user.avatars + "'/>" + tweet.user.name + "</h3><div class='handle'> " + tweet.user.handle + "</div></header>";
-    const content = "<p>" + tweet.content.text + "</p><hr>";
+    const content = "<p class ='content'>" + tweet.content.text + "</p><hr>";
     const footer = "<footer>" + time + "<div class='icons'><i class='fa-solid fa-flag'></i><i     class='fa-solid fa-arrows-rotate'></i> <i class='fa-solid fa-heart'></i></div></footer>";
     const output = "<article>" + header + content + footer + "</article>";
     return output;
