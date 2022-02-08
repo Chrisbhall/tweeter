@@ -24,6 +24,7 @@ $(document).ready(function() {
     }
     $(".error").hide(1000);
     $("#tweet-text").val('');
+    $(".counter").html("<output>140</output>");
     $.post("/tweets",safe, function() {
       $('section#tweets-container').html("");
       loadTweets();
